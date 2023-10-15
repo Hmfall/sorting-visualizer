@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport"
+         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Courses</title>
+   <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<header class="header">
+   <div class="container">
+      <div class="header-inner">
+         <div class="logo">
+            <span class="logo_text">Sort Visualizer</span>
+         </div>
+      </div>
+   </div>
+</header>
+<main>
+   <section class="inner">
+      <div class="container">
+         <div class="sort-container">
+            <div class="controls">
+               <div class="settings">
+                  <div class="create">
+                     <button type="button" class="newArray btn">Создать новый массив</button>
+                  </div>
+                  <div class="custom">
+                     <div class="sett">
+                        <span>Скорость сортировки</span>
+                       <!-- <input id="sort-speed" type="range" min="10" max="1000" value="120" step="1">-->
+                        <input id="sort-speed" type="range" min="10" max="1000" value="10" step="1">
+                     </div>
+                     <div class="sett">
+                        <span>Длина массива</span>
+                        <input id="arr-lgth" type="range" min="10" max="180" value="50" step="1">
+                     </div>
+                  </div>
+               </div>
+               <div class="sortsBtns">
+                  <button type="button" class="bubble-sort-btn btn">Сортировка пузырьком</button>
+                  <button type="button" class="selection-sort-btn btn">Сортировка выбором</button>
+               </div>
+            </div>
+            <div class="bars"></div>
+         </div>
+      </div>
+   </section>
+</main>
+<script type="module" src="js/main.js"/>
+<script type="module" src="js/sort/bubble.js"></script>
+<script type="module" src="js/sort/selection.js"></script>
+<script type="module" src="js/helpers.js"></script>
+</body>
+</html>

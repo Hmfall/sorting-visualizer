@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  -ms-text-size-adjust: 100%;
+  -moz-text-sizse-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+button,
+textarea {
+  /*   font-family: "";*/
+  font-size: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a {
+  color: inherit;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  transition: all 0.3s ease 0s;
+  height: 48px;
+  padding: 0 15px;
+  color: #ffffff;
+  border: 1px solid gray;
+}
+@media (any-hover: hover) {
+  .btn:hover {
+    background-color: gray;
+    color: #ffffff;
+  }
+}
+
+body {
+  background: linear-gradient(180deg, rgb(22, 22, 22) 50%, rgb(27, 27, 27) 60%, rgb(36, 36, 36) 70%, rgb(70, 70, 70) 100%);
+  font-size: 14px;
+  color: white;
+  font-family: JetBrains mono, sans-serif;
+}
+
+.inner {
+  padding: 1rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-inner {
+  padding: 2rem 0;
+}
+
+.logo_text {
+  font-size: 2.5rem;
+}
+
+.sort-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bars {
+  display: flex;
+  align-items: end;
+}
+
+.bar {
+  background: gray;
+  border: 1px solid black;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  gap: 1rem;
+}
+
+.sortsBtns {
+  display: flex;
+  gap: 1rem;
+}
+
+.settings {
+  gap: 1rem;
+  min-width: 16rem;
+  flex-direction: column;
+  display: flex;
+}
+
+.create button {
+  width: 100%;
+}
+
+.custom {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.sett {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.sett input {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

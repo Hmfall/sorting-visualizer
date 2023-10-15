@@ -1,0 +1,82 @@
+@import "null";
+@import "ui";
+
+body {
+   background: linear-gradient(180deg, rgba(22, 22, 22, 1) 50%, rgba(27, 27, 27, 1) 60%, rgba(36, 36, 36, 1) 70%, rgba(70, 70, 70, 1) 100%);
+   font-size: 14px;
+   color: white;
+   font-family: JetBrains mono, sans-serif;
+}
+
+.inner {
+   padding: 1rem 0;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.header-inner {
+   padding: 2rem 0;
+}
+.logo_text {
+   font-size: 2.5rem;
+}
+
+.sort-container {
+   display: flex;
+   flex-direction: column;
+}
+
+.bars {
+   display: flex;
+   align-items: end;
+
+}
+
+.bar {
+   background: gray;
+   border: 1px solid black;
+}
+
+.controls {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 4rem;
+   gap: 1rem;
+}
+
+.sortsBtns {
+   display: flex;
+   gap: 1rem;
+}
+
+.settings {
+   gap: 1rem;
+   min-width: 16rem;
+   flex-direction: column;
+   display: flex;
+}
+
+.create {
+   button {
+      width: 100%;
+   }
+}
+
+.custom {
+   display: flex;
+   flex-direction: column;
+   gap: 1.2rem;
+}
+
+.sett {
+   display: flex;
+   flex-direction: column;
+   gap: 0.3rem;
+   input {
+      cursor: pointer;
+   }
+}
